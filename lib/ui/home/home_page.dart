@@ -1,10 +1,10 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:state_mgmt_test/ui/home/home_controller.dart';
-import 'package:state_mgmt_test/ui/home/home_page_states.dart';
-import 'package:state_mgmt_test/utils/factory.dart';
-import 'package:state_mgmt_test/utils/state_listener.dart';
+import 'package:simple_state_manager/simple_state_manager.dart';
+
+import 'home_controller.dart';
+import 'home_page_states.dart';
 
 class HomePage extends StatelessWidget {
   final homeController = Factory.read(() => HomeController());
